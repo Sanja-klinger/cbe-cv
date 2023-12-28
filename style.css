@@ -5,30 +5,51 @@
 
 body {
   margin: 0;
+  margin-left: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*pardon my poor choice of colors :) */
 .header {
-  background-color: bisque;
-  color: rgb(7, 7, 15);
+  background-color: #bfeeaa;
+  color: #042708;
   text-align: center;
   padding: 16px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .navigation-to-sections {
-  background-color: beige;
-  color: rgba(50, 80, 145, 0.737));
-  
+  background-color: hsl(86, 44%, 87%);
+  color: hsla(220, 27%, 9%, 0.737);
+}
+
+.navigation-to-sections a {
+  color: #291f1f;
+  text-decoration: none;
+}
+
+.navigation-to-sections a:visited {
+  color: hsl(0, 48%, 12%);
 }
 
 /* and the sudden german part, I wanted to have something as an article, that can actually stand independently */
-.article {
-  background-color: brown;
-  color: blanchedalmond;
+
+.article-box p {
+  margin: 0;
+}
+
+.article-box {
+  max-height: 20em;
+  width: 21cm;
+  margin: 2em 0 2em 1em;
+  padding: 1em;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background-color: #e2dddd;
+  color: crimson;
+  font-size: small;
 }
 
 .sections {
-  background-color: aliceblue;
+  background-color: #d7e8cf;
   color: rgb(25, 25, 53);
 }
