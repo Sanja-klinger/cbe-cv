@@ -73,3 +73,7 @@ body {
 section + section {
   margin-top: 4%;
 }
+
+ul > * {
+  margin-top: 0.5%;
+}
