@@ -79,8 +79,16 @@ ul > * {
   margin-top: 0.5%;
 }
 
-/*pseudo elements selection and after */
+/*pseudo elements selection and , before and after */
 ::selection {
   background-color: white;
   color: black;
+}
+
+#profile p:first-of-type::before {
+  content: "😊 ";
+}
+
+#profile p:last-of-type::after {
+  content: " 💃";
 }
