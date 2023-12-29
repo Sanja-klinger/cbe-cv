@@ -4,8 +4,8 @@
 }
 
 body {
-  margin: 0;
-  margin-left: 0;
+  margin-left: 40px;
+  margin-right: 1000px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*pardon my poor choice of colors :) */
@@ -16,19 +16,27 @@ body {
   padding: 16px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+/* Navigation to sections color and effect */
 .navigation-to-sections {
   background-color: hsl(86, 44%, 87%);
   color: hsla(220, 27%, 9%, 0.737);
 }
 
-.navigation-to-sections a {
+.navigation-to-sections a:link {
   color: #291f1f;
   text-decoration: none;
 }
 
 .navigation-to-sections a:visited {
-  color: hsl(0, 48%, 12%);
+  color: #1fbd44;
+}
+
+.navigation-to-sections a:hover {
+  color: darkolivegreen;
+}
+
+.navigation-to-sections a:active {
+  color: darkgreen;
 }
 
 /* and the sudden german part, I wanted to have something as an article, that can actually stand independently */
@@ -52,10 +60,11 @@ body {
 .sections {
   background-color: #d7e8cf;
   color: rgb(25, 25, 53);
+  border: 1px solid currentColor;
+  box-sizing: border-box;
 }
 
 /* Adding spacing and border to sections */
 section + section {
   margin-top: 40px;
-  border: 1px solid hwb(120 5% 85%);
 }
