@@ -105,3 +105,17 @@ ul > * {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+/* links in sections */
+
+.sections a:link {
+  color: #042708;
+}
+
+.sections a:visited {
+  color: #06410d;
+}
+
+.sections a:hover {
+  color: #1fbd44;
+}
