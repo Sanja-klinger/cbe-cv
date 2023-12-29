@@ -4,8 +4,8 @@
 }
 
 body {
-  margin-left: 40px;
-  margin-right: 1000px;
+  margin-left: 4%;
+  margin-right: 4%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*pardon my poor choice of colors :) */
@@ -13,9 +13,14 @@ body {
   background-color: #bfeeaa;
   color: #042708;
   text-align: center;
-  padding: 16px;
+  padding: 2%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+.header ~ .header {
+  margin-top: 5%;
+}
+
 /* Navigation to sections color and effect */
 .navigation-to-sections {
   background-color: hsl(86, 44%, 87%);
@@ -66,5 +71,5 @@ body {
 
 /* Adding spacing and border to sections */
 section + section {
-  margin-top: 40px;
+  margin-top: 4%;
 }
