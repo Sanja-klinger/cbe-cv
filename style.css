@@ -53,3 +53,9 @@ body {
   background-color: #d7e8cf;
   color: rgb(25, 25, 53);
 }
+
+/* Adding spacing and border to sections */
+section + section {
+  margin-top: 40px;
+  border: 1px solid hwb(120 5% 85%);
+}
