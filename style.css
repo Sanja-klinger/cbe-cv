@@ -57,7 +57,7 @@ body {
   padding: 1em;
   border: 1px solid currentColor;
   box-sizing: border-box;
-  background-color: #e2dddd;
+  background-color: white;
   color: crimson;
   font-size: small;
 }
@@ -74,6 +74,7 @@ section + section {
   margin-top: 4%;
 }
 
+/* adding space to navigation li-s */
 ul > * {
   margin-top: 0.5%;
 }
