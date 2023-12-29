@@ -119,3 +119,11 @@ ul > * {
 .sections a:hover {
   color: #1fbd44;
 }
+
+/* something for the GIF */
+.element {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
