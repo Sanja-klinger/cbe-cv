@@ -78,3 +78,9 @@ section + section {
 ul > * {
   margin-top: 0.5%;
 }
+
+/*pseudo elements selection and after */
+::selection {
+  background-color: white;
+  color: black;
+}
