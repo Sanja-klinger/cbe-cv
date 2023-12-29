@@ -42,7 +42,7 @@ body {
   width: 21cm;
   margin: 2em 0 2em 1em;
   padding: 1em;
-  border: 1px solid #000;
+  border: 1px solid currentColor;
   box-sizing: border-box;
   background-color: #e2dddd;
   color: crimson;
