@@ -33,15 +33,15 @@ body {
 }
 
 .navigation-to-sections a:visited {
-  color: #1fbd44;
+  color: hsl(20, 72%, 43%);
 }
 
 .navigation-to-sections a:hover {
-  color: darkolivegreen;
+  color: #3e2f6b;
 }
 
 .navigation-to-sections a:active {
-  color: darkgreen;
+  color: #640049;
 }
 
 /* and the sudden german part, I wanted to have something as an article, that can actually stand independently */
