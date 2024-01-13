@@ -1,7 +1,7 @@
 /*style.css*/
 
 html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "montserrat", sans-serif;
 }
 
 * {
@@ -11,7 +11,6 @@ html {
 body {
   margin-left: 4%;
   margin-right: 4%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*pardon my poor choice of colors :) */
 .header {
@@ -19,15 +18,13 @@ body {
   color: #042708;
   text-align: center;
   padding: 2%;
-  font-family: "montserrat", sans-serif;
+  font-family: "AlaricSSK";
 }
 
-.prvi-naslov {
+.header h1,
+.header h2 {
   display: inline-block;
-}
-
-.drugi-naslov {
-  display: inline-block;
+  margin: 0 10px;
 }
 
 .header ~ .header {
@@ -55,6 +52,14 @@ body {
 
 .navigation-to-sections a:active {
   color: #640049;
+}
+
+.sections > *:not(h2) {
+  margin-left: 10px;
+}
+
+.sections h2 {
+  margin-left: 0;
 }
 
 /* and the sudden german part, I wanted to have something as an article, that can actually stand independently */
