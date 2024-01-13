@@ -11,14 +11,16 @@ html {
 body {
   margin-left: 4%;
   margin-right: 4%;
+  padding: 2%;
 }
 /*pardon my poor choice of colors :) */
 .header {
-  background-color: #bfeeaa;
-  color: #042708;
+  color: hsl(274, 86%, 11%);
   text-align: center;
   padding: 2%;
   font-family: "AlaricSSK";
+  font-size: large;
+  font-weight: 200;
 }
 
 .header h1,
@@ -136,4 +138,17 @@ ul > * {
 
 .sections a:hover {
   color: #1fbd44;
+}
+
+.badge {
+  position: absolute;
+  right: 16px;
+  top: 20px;
+  padding: 4px;
+  border-radius: 2px;
+  background: rgb(237, 138, 24);
+  color: black;
+  transform: rotate(20deg);
+  font-family: cursive;
+  font-size: large;
 }
