@@ -146,7 +146,7 @@ ul > * {
   right: 4rem;
   top: 4rem;
   padding: 4rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   background: rgb(237, 138, 24);
   color: black;
   transform: rotate(20deg);
