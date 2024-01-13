@@ -19,12 +19,19 @@ body {
   color: #042708;
   text-align: center;
   padding: 2%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "montserrat", sans-serif;
+}
+
+.prvi-naslov {
+  display: inline-block;
+}
+
+.drugi-naslov {
+  display: inline-block;
 }
 
 .header ~ .header {
   margin-top: 5%;
-  font: ;
 }
 
 /* Navigation to sections color and effect */
