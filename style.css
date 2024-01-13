@@ -24,6 +24,7 @@ body {
 
 .header ~ .header {
   margin-top: 5%;
+  font: ;
 }
 
 /* Navigation to sections color and effect */
