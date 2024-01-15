@@ -5,6 +5,18 @@ html {
   font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -141,15 +153,38 @@ ul > * {
   color: #1fbd44;
 }
 
+.footer {
+  font-family: inherit;
+  background-color: inherit .footer;
+}
+
 .badge {
   position: absolute;
-  right: 4rem;
-  top: 4rem;
-  padding: 4rem;
+  right: 1rem;
+  top: 2rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   background: rgb(237, 138, 24);
   color: black;
   transform: rotate(20deg);
   font-family: cursive;
   font-size: large;
+}
+
+@media screen and (min-width: 992px) {
+  .badge {
+    position: fixed;
+  }
+}
+
+@media print {
+  .badge {
+    display: none;
+  }
+  .navigation-to-sections {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
 }
