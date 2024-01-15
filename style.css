@@ -29,6 +29,7 @@ body {
 .header {
   color: hsl(274, 86%, 11%);
   text-align: center;
+  padding-top: 3rem;
   padding: 2%;
   font-family: "AlaricSSK";
   font-size: 3rem;
@@ -186,5 +187,11 @@ ul > * {
   }
   .footer {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main > * + * {
+    margin-top: 5rem;
   }
 }
