@@ -21,12 +21,13 @@ html {
   box-sizing: border-box;
 }
 
-body {
+body {-
   margin-left: 4%;
   margin-right: 4%;
 }
 /*pardon my poor choice of colors :) */
 .header {
+  margin-top: 7rem;
   color: hsl(274, 86%, 11%);
   text-align: center;
   padding-top: 3rem;
@@ -48,8 +49,24 @@ body {
 
 /* Navigation to sections color and effect */
 .navigation-to-sections {
+  
   background-color: hsl(86, 44%, 87%);
   color: hsla(220, 27%, 9%, 0.737);
+}
+
+
+
+@media (min-width: 768px) {
+  .navigation-to-sections ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+        
+  }
+}
+
+.navigation-to-sections li {
+  margin-right: 10px; /* Optional: Adjust the spacing between flex items */
 }
 
 .navigation-to-sections a:link {
@@ -110,7 +127,7 @@ section + section {
 
 /* adding space to navigation li-s */
 ul > * {
-  margin-top: 0.5%;
+  margin-top: 0.5rem;
 }
 
 /*pseudo elements selection and , before and after */
